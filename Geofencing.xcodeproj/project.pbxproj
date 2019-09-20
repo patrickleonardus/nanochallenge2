@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6AE65D82333259F004043C7 /* ReminderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AE65D72333259F004043C7 /* ReminderTableViewController.swift */; };
+		E6AE65DD23336208004043C7 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6AE65DC23336208004043C7 /* CloudKit.framework */; };
+		E6AE65DF23336A08004043C7 /* ReminderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AE65DE23336A08004043C7 /* ReminderTableViewCell.swift */; };
+		E6AE65E12333E2EF004043C7 /* HomeReflectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AE65E02333E2EF004043C7 /* HomeReflectionTableViewCell.swift */; };
+		E6AE65E32334A118004043C7 /* InsideReminderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AE65E22334A118004043C7 /* InsideReminderCollectionViewCell.swift */; };
+		E6AE65E82334A1B2004043C7 /* HomeReminderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AE65E72334A1B2004043C7 /* HomeReminderTableViewCell.swift */; };
 		E6D8055F233135D200E2DEAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D8055E233135D200E2DEAB /* AppDelegate.swift */; };
 		E6D80561233135D200E2DEAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D80560233135D200E2DEAB /* ViewController.swift */; };
 		E6D80564233135D200E2DEAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D80562233135D200E2DEAB /* Main.storyboard */; };
 		E6D80566233135D300E2DEAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D80565233135D300E2DEAB /* Assets.xcassets */; };
 		E6D80569233135D300E2DEAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D80567233135D300E2DEAB /* LaunchScreen.storyboard */; };
+		E6D805712331D3E600E2DEAB /* ios_gmail_sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = E6D805702331D3E600E2DEAB /* ios_gmail_sound.caf */; };
+		E6D805762332084000E2DEAB /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D805752332084000E2DEAB /* Reachability.swift */; };
+		E6D80578233292EE00E2DEAB /* ReflectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D80577233292EE00E2DEAB /* ReflectionTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E6AE65D72333259F004043C7 /* ReminderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTableViewController.swift; sourceTree = "<group>"; };
+		E6AE65DC23336208004043C7 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		E6AE65DE23336A08004043C7 /* ReminderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTableViewCell.swift; sourceTree = "<group>"; };
+		E6AE65E02333E2EF004043C7 /* HomeReflectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeReflectionTableViewCell.swift; sourceTree = "<group>"; };
+		E6AE65E22334A118004043C7 /* InsideReminderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsideReminderCollectionViewCell.swift; sourceTree = "<group>"; };
+		E6AE65E72334A1B2004043C7 /* HomeReminderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeReminderTableViewCell.swift; sourceTree = "<group>"; };
 		E6D8055B233135D200E2DEAB /* Geofencing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geofencing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D8055E233135D200E2DEAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6D80560233135D200E2DEAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +37,10 @@
 		E6D80565233135D300E2DEAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6D80568233135D300E2DEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6D8056A233135D300E2DEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6D805702331D3E600E2DEAB /* ios_gmail_sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ios_gmail_sound.caf; sourceTree = "<group>"; };
+		E6D805742332007300E2DEAB /* Geofencing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Geofencing.entitlements; sourceTree = "<group>"; };
+		E6D805752332084000E2DEAB /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		E6D80577233292EE00E2DEAB /* ReflectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +48,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6AE65DD23336208004043C7 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E6AE65D923335AE6004043C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6AE65DC23336208004043C7 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6AE65E42334A151004043C7 /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				E6AE65D72333259F004043C7 /* ReminderTableViewController.swift */,
+				E6AE65DE23336A08004043C7 /* ReminderTableViewCell.swift */,
+			);
+			path = Reminder;
+			sourceTree = "<group>";
+		};
+		E6AE65E52334A169004043C7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E6D80560233135D200E2DEAB /* ViewController.swift */,
+				E6AE65E02333E2EF004043C7 /* HomeReflectionTableViewCell.swift */,
+				E6AE65E22334A118004043C7 /* InsideReminderCollectionViewCell.swift */,
+				E6AE65E72334A1B2004043C7 /* HomeReminderTableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E6AE65E62334A17D004043C7 /* Reflection */ = {
+			isa = PBXGroup;
+			children = (
+				E6D80577233292EE00E2DEAB /* ReflectionTableViewController.swift */,
+			);
+			path = Reflection;
+			sourceTree = "<group>";
+		};
 		E6D80552233135D200E2DEAB = {
 			isa = PBXGroup;
 			children = (
+				E6D805702331D3E600E2DEAB /* ios_gmail_sound.caf */,
 				E6D8055D233135D200E2DEAB /* Geofencing */,
 				E6D8055C233135D200E2DEAB /* Products */,
+				E6AE65D923335AE6004043C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,8 +112,12 @@
 		E6D8055D233135D200E2DEAB /* Geofencing */ = {
 			isa = PBXGroup;
 			children = (
+				E6AE65E62334A17D004043C7 /* Reflection */,
+				E6AE65E52334A169004043C7 /* Home */,
+				E6AE65E42334A151004043C7 /* Reminder */,
+				E6D805742332007300E2DEAB /* Geofencing.entitlements */,
 				E6D8055E233135D200E2DEAB /* AppDelegate.swift */,
-				E6D80560233135D200E2DEAB /* ViewController.swift */,
+				E6D805752332084000E2DEAB /* Reachability.swift */,
 				E6D80562233135D200E2DEAB /* Main.storyboard */,
 				E6D80565233135D300E2DEAB /* Assets.xcassets */,
 				E6D80567233135D300E2DEAB /* LaunchScreen.storyboard */,
@@ -96,6 +158,20 @@
 				TargetAttributes = {
 					E6D8055A233135D200E2DEAB = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,6 +201,7 @@
 				E6D80569233135D300E2DEAB /* LaunchScreen.storyboard in Resources */,
 				E6D80566233135D300E2DEAB /* Assets.xcassets in Resources */,
 				E6D80564233135D200E2DEAB /* Main.storyboard in Resources */,
+				E6D805712331D3E600E2DEAB /* ios_gmail_sound.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +212,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6AE65E12333E2EF004043C7 /* HomeReflectionTableViewCell.swift in Sources */,
+				E6AE65E82334A1B2004043C7 /* HomeReminderTableViewCell.swift in Sources */,
+				E6D80578233292EE00E2DEAB /* ReflectionTableViewController.swift in Sources */,
+				E6AE65E32334A118004043C7 /* InsideReminderCollectionViewCell.swift in Sources */,
+				E6AE65DF23336A08004043C7 /* ReminderTableViewCell.swift in Sources */,
 				E6D80561233135D200E2DEAB /* ViewController.swift in Sources */,
 				E6D8055F233135D200E2DEAB /* AppDelegate.swift in Sources */,
+				E6AE65D82333259F004043C7 /* ReminderTableViewController.swift in Sources */,
+				E6D805762332084000E2DEAB /* Reachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +366,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Geofencing/Geofencing.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NJYBE4CVL;
 				INFOPLIST_FILE = Geofencing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,9 +386,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Geofencing/Geofencing.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NJYBE4CVL;
 				INFOPLIST_FILE = Geofencing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
